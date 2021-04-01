@@ -13,8 +13,8 @@ public class Utils {
             }
         }
 
-        for (int i = 0; i < 12; i++) {
-            for (int j = 0; j < 11; j++){
+        for (int i = 0; i < Common.numberOfTasks; i++) {
+            for (int j = 0; j < Common.numberOfResource; j++){
                 System.out.print(useful[i][j]);
             }
             System.out.println("");
