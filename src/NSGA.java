@@ -2,6 +2,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
+import java.net.CookieManager;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,14 +23,26 @@ public class NSGA {
     }
 
 
-    public void execute() throws FileNotFoundException, UnsupportedEncodingException {
+    public void execute(){
         init();
         crossover();
         display();
         //write();
     }
     public void init() {
-
+        for (int i = 0; i < Common.populationSize/2; i++) {
+            Vertices vertices = new Vertices();
+            List<Task> taskList = vertices.taskList;
+            for (Task task: taskList) {
+                int [] assign = task.getAssign();
+                for (int j = 0; j < Common.numberOfResource; j++) {
+                    int rand = Math.random() > 0.5 ? 1 : 0;
+                    assign[j] = 0;
+                }
+                task.setAssign(assign);
+            }
+            this.verticesList.add(vertices);
+        }
     }
 
 
@@ -52,7 +65,7 @@ public class NSGA {
         }
     }
 
-    public void display() throws FileNotFoundException, UnsupportedEncodingException {
+    public void display(){
         int i = 1;
         for (Vertices v: this.verticesList) {
             List<Task> taskList = v.taskList;

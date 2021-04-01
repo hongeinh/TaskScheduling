@@ -2,7 +2,12 @@ import java.util.List;
 
 public class NSGAImproved extends NSGA{
 
-    boolean [][] isUseful = new boolean[Common.numberOfTasks][Common.numberOfResource];
+
+    NSGAImproved() {
+        super();
+    }
+
+
     @Override
     public void createOffspringPopulation() {
         super.createOffspringPopulation();
