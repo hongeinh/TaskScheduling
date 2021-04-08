@@ -7,7 +7,7 @@ import java.util.List;
 public class Task {
 	private int id;
 	private int duration;
-	private int scheduledTime;
+	private double scheduledTime;
 	private double start;
 	private int[] assign;
 	private int numbOfAssigned;
@@ -54,11 +54,11 @@ public class Task {
 		this.duration = duration;
 	}
 
-	public int getScheduledTime() {
+	public double getScheduledTime() {
 		return scheduledTime;
 	}
 
-	public void setScheduledTime(int scheduledTime) {
+	public void setScheduledTime(double scheduledTime) {
 		this.scheduledTime = scheduledTime;
 	}
 
@@ -82,7 +82,7 @@ public class Task {
 	@Override
 	public String toString() {
 		StringBuilder str = new StringBuilder(
-				this.getId() + "\tStart time: " + this.getStart() + "\tAssign: ") ;
+				this.getId() + "\tSched time: " + this.getScheduledTime() + "\tStart time: " + this.getStart() + "\tAssign: ") ;
 
 		for (int i = 0; i < Common.numberOfResource; i++) {
 			str.append(this.getAssign()[i] + "\t");

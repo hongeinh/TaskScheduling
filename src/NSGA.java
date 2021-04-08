@@ -24,20 +24,21 @@ public class NSGA {
     private List<Vertices> offspringList;
 
     public void execute(){
-        init();
-        crossover();
-        display();
+        this.init();
+        this.crossover();
+        this.display();
     }
     public void init() {
-        for (int i = 0; i < Common.populationSize; i++) {
+        for (int i = 1; i <= Common.populationSize; i++) {
             Vertices vertices = new Vertices();
             List<Task> taskList = vertices.taskList;
+            double k = Common.maxDuration*i/Common.populationSize;
             for (Task task: taskList) {
                 int operator = Math.random() >= 0.5 ? 1 : 0;
                 if(operator == 1) {
-                    task.setStart(task.getScheduledTime() + (int) Math.random()*100);
+                    task.setStart(task.getScheduledTime() + (int) Math.floor(Math.random()*k));
                 } else {
-                    task.setStart(task.getScheduledTime() - (int) Math.random()*100);
+                    task.setStart(task.getScheduledTime() - (int) Math.floor(Math.random()*k));
                 }
                 int [] assign = task.getAssign();
                 for (int j = 0; j < Common.numberOfResource; j++) {

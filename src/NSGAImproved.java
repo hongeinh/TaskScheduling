@@ -15,7 +15,7 @@ public class NSGAImproved extends NSGA{
 
     @Override
     public void init() {
-        for (int i = 0; i < Common.populationSize; i++) {
+        for (int i = 1; i <= Common.populationSize; i++) {
             Vertices vertices = new Vertices();
             this.getVerticesList().add(initElement(Common.maxDuration*i/Common.populationSize, vertices));
         }
@@ -26,7 +26,7 @@ public class NSGAImproved extends NSGA{
      * Initialize the individuals
      *
      * */
-    public Vertices initElement(int k, Vertices vertices) {
+    public Vertices initElement(double k, Vertices vertices) {
         List<Task> tasks = vertices.taskList;
         int i = 0;
         for (Task task: tasks) {
@@ -35,6 +35,8 @@ public class NSGAImproved extends NSGA{
                if(Common.relationship[tj.getId()-1][task.getId()-1] == 1) {
                    double start = Math.max(task.getStart(), tj.getStart() + tj.getDuration());
                    task.setStart(start);
+                   int rand = (int) Math.floor(Math.random()*k);
+                   task.setScheduledTime(start + rand);
                }
            }
 
@@ -53,6 +55,9 @@ public class NSGAImproved extends NSGA{
            }
            i++;
         }
+        vertices.setDuration();
+        vertices.setExperience();
+        vertices.setAssign();
         return vertices;
     }
 
