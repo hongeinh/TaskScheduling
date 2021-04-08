@@ -4,6 +4,16 @@ public class Vertices {
 
     public List<Task> taskList = new ArrayList<Task>() ;
 
+    private double duration;
+
+    private double assignment;
+
+    private double experience;
+
+    private int rank;
+
+    private double distance;
+
     public Vertices() {
         Task t1  = new Task(1, 0, 24, 28);
         Task t2  = new Task(2, 0, 26, 0);
@@ -33,19 +43,19 @@ public class Vertices {
     }
 
 
-    public double duration() {
+    public void setDuration() {
         double duration = 0;
         for (Task task: this.taskList) {
             double idle = task.getScheduledTime() - task.getStart();
             idle = idle < 0 ? 0 : (1/(1 + idle));
             duration += idle;
         }
-        return duration/Common.numberOfTasks;
+        this.duration =  duration/Common.numberOfTasks;
     }
 
 
 
-    public double experience() {
+    public void setExperience() {
         double treq = 0;
         for (Task task: this.taskList) {
 //            treq += getSkillsMaxExp(task.getId() - 1) + getLexp(task.getId()-1)/task.getNumbOfAssigned();
@@ -56,7 +66,7 @@ public class Vertices {
             }
         }
         treq /= Common.numberOfSkills;
-        return treq/Common.numberOfTasks;
+        this.experience = treq/Common.numberOfTasks;
     }
 
 
@@ -87,9 +97,36 @@ public class Vertices {
         return avg;
     }
     // pending
-    public double assign() {
-        return 0;
+    public void setAssign() {
+        this.assignment =  0;
     }
 
+    public double getDuration() {
+        return duration;
+    }
+
+    public double getAssignment() {
+        return assignment;
+    }
+
+    public double getExperience() {
+        return experience;
+    }
+
+    public int getRank() {
+        return rank;
+    }
+
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public void setDistance(double distance) {
+        this.distance = distance;
+    }
 }
 
