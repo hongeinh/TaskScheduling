@@ -1,3 +1,5 @@
+package old;
+
 public class Common {
 
 	public static final int[] taskDuration = {24, 26, 20, 12, 15, 18, 15, 15, 20, 27, 10, 18};

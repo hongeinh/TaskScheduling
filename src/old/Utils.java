@@ -1,3 +1,5 @@
+package old;
+
 public class Utils {
 
     public static void isUseful (int [][] a, double [][] b) {

@@ -1,5 +1,4 @@
-import java.io.FileNotFoundException;
-import java.io.UnsupportedEncodingException;
+package old;
 
 public class Main2 {
     public static void main(String[] args){
