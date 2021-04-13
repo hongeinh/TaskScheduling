@@ -18,15 +18,15 @@ public class Vertices {
     private double distance;
 
     public Vertices() {
-        Task t1 = new Task(1, 0, 24, 26);
-        Task t2 = new Task(2, 0, 26, 0);
-        Task t3 = new Task(3, 0, 20, 50);
-        Task t4 = new Task(4, 0, 12, 70);
-        Task t5 = new Task(5, 0, 15, 82);
-        Task t6 = new Task(6, 0, 18, 52);
-        Task t7 = new Task(7, 0, 15, 107);
-        Task t8 = new Task(8, 0, 15, 97);
-        Task t9 = new Task(9, 0, 20, 50);
+        Task t1 =  new Task(1, 0, 24, 26);
+        Task t2 =  new Task(2, 0, 26, 0);
+        Task t3 =  new Task(3, 0, 20, 50);
+        Task t4 =  new Task(4, 0, 12, 70);
+        Task t5 =  new Task(5, 0, 15, 82);
+        Task t6 =  new Task(6, 0, 18, 52);
+        Task t7 =  new Task(7, 0, 15, 107);
+        Task t8 =  new Task(8, 0, 15, 97);
+        Task t9 =  new Task(9, 0, 20, 50);
         Task t10 = new Task(10, 0, 27, 23);
         Task t11 = new Task(11, 0, 10, 112);
         Task t12 = new Task(12, 0, 18, 32);
