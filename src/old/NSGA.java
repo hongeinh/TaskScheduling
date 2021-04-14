@@ -24,7 +24,7 @@ public class NSGA {
 
     public void execute(){
         this.init();
-        this.crossover();
+        //this.crossover();
         this.display();
     }
     public void init() {
