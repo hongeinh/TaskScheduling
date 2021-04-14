@@ -30,6 +30,7 @@ public class NSGAImproved extends NSGA {
 
 		for (Task task : taskList) {
 			List<Task> predecessors = task.getPredecessors();
+			List<Integer> taskResource = taskResourceList.get(taskList.indexOf(task));
 
 			for (Task tj : predecessors) {
 				double start = Math.max(task.getStart(), tj.getStart() + tj.getDuration());
@@ -39,22 +40,20 @@ public class NSGAImproved extends NSGA {
 
 			}
 
+			for (int j = 0; j < Common.numOfResources; j++) {
 
-//			for (int j = 0; j < Common.numOfResources; j++) {
-//				List<Integer> taskResource = taskResourceList.get(taskList.indexOf(task));
-//				if (Common.isUseful[task.getId()][j] == 0) {
-//					assign[j] = 0;
-//				} else {
-//					double rand = Math.random();
-//					assign[j] = rand >= 0.5 ? 1 : 0;
+				if (Common.isUseful[task.getId()][j] == 0) {
+					taskResource.set(j, 0);
+				} else {
+					double rand = Math.random();
+					taskResource.set(j, rand >= 0.5 ? 1 : 0);
 //					if (assign[j] == 1) {
 //						task.setNumbOfAssigned(task.getNumbOfAssigned() + 1);
 //					}
-//				}
-//				task.setAssign(assign);
-//			}
-//			i++;
+				}
+			}
 		}
+
 		vertices.setDuration();
 		vertices.setExperience();
 		vertices.setAssign();

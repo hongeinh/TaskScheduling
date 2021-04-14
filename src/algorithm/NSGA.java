@@ -15,6 +15,8 @@ public class NSGA extends Algorithm{
 	@Override
 	public void execute() {
 		this.init();
+		this.calculateRank(this.population);
+		this.calculateDistance(this.population);
 		this.createOffspring();
 		this.crossover();
 		this.getPopulation();
@@ -55,6 +57,14 @@ public class NSGA extends Algorithm{
 	}
 
 	public void crossover() {
+
+	}
+
+	public void calculateRank(Population population) {
+
+	}
+
+	public void calculateDistance(Population population) {
 
 	}
 
