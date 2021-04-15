@@ -1,0 +1,319 @@
+Parent population
+Vertice 1
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	1	0	0	1	1	1	0	1	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	0	0	0	1	0	0	1	0	0
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	0	0	0	0	0	1	0	0	1	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	1	1	1	0	1	0	0	0	1	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	0	0	1	0	0	0	1	0	1	1
+1	Sched time: 26.0	Start time: 26.0	Assign: 0	0	0	0	0	1	1	0	0	0	0
+9	Sched time: 50.0	Start time: 50.0	Assign: 0	0	1	0	0	1	0	0	0	0	0
+4	Sched time: 70.0	Start time: 70.0	Assign: 0	0	0	1	0	0	0	0	0	0	1
+7	Sched time: 82.0	Start time: 82.0	Assign: 1	1	1	1	0	1	0	0	0	0	0
+5	Sched time: 82.0	Start time: 82.0	Assign: 0	0	0	0	0	1	0	0	0	0	1
+8	Sched time: 97.0	Start time: 97.0	Assign: 0	0	1	1	0	1	1	0	0	1	1
+11	Sched time: 112.0	Start time: 112.0	Assign: 1	0	0	1	1	0	0	0	0	0	1
+----- Duration: 0.6758704553862711 ----- Experience: 0.013958333333333331 ----- Assign: 0.583008658008658
+
+
+Vertice 2
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	1	1	0	0	1	1	0	0	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 1	0	0	0	0	0	1	0	1	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 0	0	1	0	0	0	1	1	0	0	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	1	1	1	0	0	0	0	0	0	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 1	0	1	1	0	1	1	1	1	1	0
+1	Sched time: 27.0	Start time: 26.0	Assign: 0	0	0	1	0	0	1	0	0	0	1
+9	Sched time: 51.0	Start time: 50.0	Assign: 1	0	1	0	0	0	0	0	0	0	0
+4	Sched time: 70.0	Start time: 70.0	Assign: 1	0	0	0	1	0	0	0	0	0	0
+7	Sched time: 82.0	Start time: 82.0	Assign: 0	0	0	1	0	0	1	0	0	0	1
+5	Sched time: 83.0	Start time: 82.0	Assign: 0	0	0	0	0	0	1	0	0	0	0
+8	Sched time: 98.0	Start time: 97.0	Assign: 1	1	0	0	0	1	1	0	0	0	0
+11	Sched time: 113.0	Start time: 112.0	Assign: 1	0	0	1	0	0	0	0	1	0	0
+----- Duration: 0.4675371220529378 ----- Experience: 0.016111111111111107 ----- Assign: 0.5621212121212121
+
+
+Vertice 3
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 0	0	1	1	0	0	1	1	1	1	0
+3	Sched time: 50.0	Start time: 0.0	    Assign: 1	0	1	1	0	1	0	0	0	0	0
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	0	1	0	0	0	0	0	1	1	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	0	0	1	0	1	0	0	0	1	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 1	0	1	1	0	1	1	0	1	1	1
+1	Sched time: 29.0	Start time: 26.0	Assign: 0	0	0	1	0	0	1	0	0	0	1
+9	Sched time: 51.0	Start time: 50.0	Assign: 1	0	0	1	0	0	0	0	0	1	1
+4	Sched time: 73.0	Start time: 70.0	Assign: 0	0	0	1	0	0	0	1	0	0	1
+7	Sched time: 83.0	Start time: 82.0	Assign: 1	0	0	0	0	0	1	0	1	0	1
+5	Sched time: 83.0	Start time: 82.0	Assign: 0	0	0	1	0	0	1	0	0	0	1
+8	Sched time: 99.0	Start time: 97.0	Assign: 0	0	0	1	0	0	1	1	0	1	0
+11	Sched time: 115.0	Start time: 112.0	Assign: 0	0	0	1	0	1	1	0	1	1	0
+----- Duration: 0.3078148998307156 ----- Experience: 0.012666666666666666 ----- Assign: 0.0
+
+
+Vertice 4
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	1	0	0	1	0	1	0	1	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 1	0	0	1	0	1	0	0	0	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 0	0	0	1	0	0	1	1	0	1	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	1	0	0	0	0	0	0	0	1	0
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	1	0	1	1	1	1	0	1	0	1
+1	Sched time: 29.0	Start time: 26.0	Assign: 0	0	0	1	0	0	1	0	0	0	1
+9	Sched time: 50.0	Start time: 50.0	Assign: 1	0	0	0	0	1	0	0	1	1	1
+4	Sched time: 74.0	Start time: 70.0	Assign: 1	0	0	0	0	0	0	0	1	0	1
+7	Sched time: 85.0	Start time: 82.0	Assign: 0	0	0	1	1	1	1	0	0	0	0
+5	Sched time: 86.0	Start time: 82.0	Assign: 0	0	0	1	0	1	0	0	0	0	0
+8	Sched time: 97.0	Start time: 97.0	Assign: 1	0	0	0	1	1	1	0	0	0	0
+11	Sched time: 112.0	Start time: 112.0	Assign: 1	0	0	1	0	1	0	0	0	1	0
+----- Duration: 0.4175371220529378 ----- Experience: 0.013958333333333331 ----- Assign: 0.0
+
+
+Vertice 5
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	1	0	0	1	0	1	0	1	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 1	0	1	0	0	1	0	0	1	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	1	0	1	0	0	1	0	1	1	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	1	0	0	0	1	1	0	0	1	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 1	1	1	0	1	0	0	0	0	1	1
+1	Sched time: 31.0	Start time: 26.0	Assign: 0	0	0	1	0	1	0	0	0	0	0
+9	Sched time: 50.0	Start time: 50.0	Assign: 1	0	0	1	0	1	1	0	1	0	1
+4	Sched time: 72.0	Start time: 70.0	Assign: 0	1	0	1	1	0	0	0	0	0	0
+7	Sched time: 86.0	Start time: 82.0	Assign: 0	1	0	1	0	0	0	0	0	0	0
+5	Sched time: 84.0	Start time: 82.0	Assign: 0	0	0	1	0	1	1	0	0	0	1
+8	Sched time: 102.0	Start time: 97.0	Assign: 1	1	0	1	0	1	0	0	1	0	1
+11	Sched time: 114.0	Start time: 112.0	Assign: 1	0	1	0	1	0	1	0	1	1	0
+----- Duration: 0.30364823316404893 ----- Experience: 0.011805555555555555 ----- Assign: 0.0
+
+
+Vertice 6
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 0	0	1	0	0	1	1	0	1	0	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 1	0	1	1	0	1	1	0	0	0	0
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	0	0	0	0	0	0	1	1	1	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	1	1	1	0	1	0	1	0	1	0
+12	Sched time: 32.0	Start time: 0.0	    Assign: 1	1	1	0	0	0	1	1	0	0	1
+1	Sched time: 27.0	Start time: 26.0	Assign: 0	0	0	1	0	1	0	0	0	0	0
+9	Sched time: 57.0	Start time: 50.0	Assign: 0	0	0	0	0	1	1	0	1	0	0
+4	Sched time: 75.0	Start time: 70.0	Assign: 1	1	0	1	1	0	0	1	0	0	1
+7	Sched time: 88.0	Start time: 82.0	Assign: 0	1	0	1	0	0	0	0	1	0	1
+5	Sched time: 82.0	Start time: 82.0	Assign: 0	0	0	0	0	0	0	0	0	0	1
+8	Sched time: 97.0	Start time: 97.0	Assign: 1	0	0	1	1	0	0	0	0	0	0
+11	Sched time: 118.0	Start time: 112.0	Assign: 0	1	0	0	0	1	0	1	1	1	0
+----- Duration: 0.3489855347513506 ----- Experience: 0.012666666666666666 ----- Assign: 0.0
+
+
+Vertice 7
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	1	1	0	0	0	0	0	0	0
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	1	0	0	0	0	0	0	0	0
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	0	0	0	0	0	1	1	0	0	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	1	1	0	0	1	0	1	0	0	0
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	0	0	0	1	1	1	1	1	1	0
+1	Sched time: 27.0	Start time: 26.0	Assign: 0	0	0	0	0	0	1	0	0	0	0
+9	Sched time: 51.0	Start time: 50.0	Assign: 0	0	0	1	0	0	0	0	1	1	1
+4	Sched time: 73.0	Start time: 70.0	Assign: 1	1	0	0	1	0	0	1	0	0	0
+7	Sched time: 86.0	Start time: 82.0	Assign: 1	0	0	1	0	0	1	0	1	0	0
+5	Sched time: 84.0	Start time: 82.0	Assign: 0	0	0	1	0	1	1	0	0	0	1
+8	Sched time: 102.0	Start time: 97.0	Assign: 0	0	1	0	1	0	1	1	0	1	1
+11	Sched time: 114.0	Start time: 112.0	Assign: 0	1	1	0	0	1	0	0	1	0	0
+----- Duration: 0.2828148998307156 ----- Experience: 0.013958333333333331 ----- Assign: 0.0
+
+
+Vertice 8
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 0	0	1	1	0	1	0	0	0	0	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	1	0	0	1	1	0	0	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	0	0	0	0	0	0	1	0	0	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	1	1	1	0	1	1	1	0	1	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 1	1	0	1	0	0	0	0	1	0	1
+1	Sched time: 27.0	Start time: 26.0	Assign: 0	0	0	0	0	1	1	0	0	0	1
+9	Sched time: 56.0	Start time: 50.0	Assign: 1	0	1	0	0	0	1	0	0	0	1
+4	Sched time: 77.0	Start time: 70.0	Assign: 1	1	0	0	1	0	0	0	0	0	1
+7	Sched time: 91.0	Start time: 82.0	Assign: 0	0	1	1	0	1	1	0	1	0	1
+5	Sched time: 84.0	Start time: 82.0	Assign: 0	0	0	1	0	0	1	0	0	0	0
+8	Sched time: 105.0	Start time: 97.0	Assign: 0	1	1	1	1	1	0	0	1	0	1
+11	Sched time: 119.0	Start time: 112.0	Assign: 0	1	1	0	1	1	0	1	1	0	0
+----- Duration: 0.2123122543280701 ----- Experience: 0.011805555555555555 ----- Assign: 0.0
+
+
+Vertice 9
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	0	0	0	0	1	1	0	0	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	1	0	0	0	0	0	1	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	1	1	1	0	0	1	0	0	1	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	1	1	1	0	0	1	0	0	1	0
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	0	1	1	0	1	1	0	0	1	1
+1	Sched time: 30.0	Start time: 26.0	Assign: 0	0	0	0	0	0	0	0	0	0	1
+9	Sched time: 58.0	Start time: 50.0	Assign: 0	0	0	0	0	0	1	0	1	1	1
+4	Sched time: 72.0	Start time: 70.0	Assign: 1	0	0	0	0	0	0	1	0	0	1
+7	Sched time: 93.0	Start time: 82.0	Assign: 1	0	1	0	0	1	1	0	0	0	0
+5	Sched time: 87.0	Start time: 82.0	Assign: 0	0	0	1	0	0	1	0	0	0	0
+8	Sched time: 102.0	Start time: 97.0	Assign: 1	1	1	1	1	0	0	1	1	0	0
+11	Sched time: 118.0	Start time: 112.0	Assign: 1	1	0	0	0	0	0	0	0	1	1
+----- Duration: 0.19286780988362562 ----- Experience: 0.013958333333333331 ----- Assign: 0.0
+
+
+Vertice 10
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	1	0	0	0	1	1	1	0	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	1	1	0	0	1	0	0	0	0
+6	Sched time: 52.0	Start time: 0.0	    Assign: 0	1	1	0	0	0	1	0	0	0	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	1	1	0	0	1	1	1	0	0	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 1	0	1	1	0	0	0	0	1	0	1
+1	Sched time: 26.0	Start time: 26.0	Assign: 0	0	0	1	0	0	0	0	0	0	0
+9	Sched time: 51.0	Start time: 50.0	Assign: 1	0	1	1	0	0	1	0	0	1	1
+4	Sched time: 77.0	Start time: 70.0	Assign: 1	0	0	0	0	0	0	0	1	0	1
+7	Sched time: 84.0	Start time: 82.0	Assign: 0	1	0	0	0	0	0	0	1	0	1
+5	Sched time: 92.0	Start time: 82.0	Assign: 0	0	0	1	0	0	1	0	0	0	1
+8	Sched time: 104.0	Start time: 97.0	Assign: 0	0	1	0	0	1	0	1	0	1	0
+11	Sched time: 118.0	Start time: 112.0	Assign: 1	1	1	1	0	1	0	1	1	1	0
+----- Duration: 0.2856287526445684 ----- Experience: 0.010729166666666666 ----- Assign: 0.0
+
+
+Vertice 11
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	0	1	0	1	1	1	1	1	0
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	1	1	0	1	1	0	0	0	0
+6	Sched time: 52.0	Start time: 0.0	    Assign: 0	1	1	1	0	0	0	1	0	0	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	0	0	1	0	1	0	1	0	1	0
+12	Sched time: 32.0	Start time: 0.0	    Assign: 1	1	0	0	0	0	0	0	1	1	0
+1	Sched time: 33.0	Start time: 26.0	Assign: 0	0	0	1	0	0	0	0	0	0	1
+9	Sched time: 62.0	Start time: 50.0	Assign: 0	0	1	0	0	0	0	0	0	0	1
+4	Sched time: 71.0	Start time: 70.0	Assign: 0	0	0	0	0	0	0	0	1	0	1
+7	Sched time: 85.0	Start time: 82.0	Assign: 1	0	0	0	1	0	0	0	0	0	1
+5	Sched time: 92.0	Start time: 82.0	Assign: 0	0	0	0	0	0	0	0	0	0	1
+8	Sched time: 98.0	Start time: 97.0	Assign: 1	1	1	1	1	0	1	1	1	1	1
+11	Sched time: 112.0	Start time: 112.0	Assign: 1	1	0	1	0	0	1	1	1	1	1
+----- Duration: 0.3044398027056185 ----- Experience: 0.010729166666666666 ----- Assign: 0.0
+
+
+Vertice 12
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 0	0	0	1	0	0	1	1	0	0	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 1	0	0	0	0	0	1	0	0	0	0
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	0	0	1	0	0	1	1	0	0	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	1	0	1	0	1	0	0	0	0	0
+12	Sched time: 32.0	Start time: 0.0	    Assign: 1	0	0	0	0	0	1	1	1	1	0
+1	Sched time: 30.0	Start time: 26.0	Assign: 0	0	0	0	0	0	0	0	0	0	1
+9	Sched time: 65.0	Start time: 50.0	Assign: 0	0	0	1	0	0	0	0	1	0	0
+4	Sched time: 81.0	Start time: 70.0	Assign: 0	1	0	0	0	0	0	1	1	0	1
+7	Sched time: 88.0	Start time: 82.0	Assign: 1	0	1	1	0	1	0	0	1	0	1
+5	Sched time: 86.0	Start time: 82.0	Assign: 0	0	0	0	0	1	0	0	0	0	1
+8	Sched time: 101.0	Start time: 97.0	Assign: 0	0	1	1	0	0	1	1	1	0	1
+11	Sched time: 123.0	Start time: 112.0	Assign: 1	1	1	0	1	1	0	1	1	1	1
+----- Duration: 0.17353910617992194 ----- Experience: 0.01037037037037037 ----- Assign: 0.0
+
+
+Vertice 13
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 0	0	1	1	0	1	1	1	0	1	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 1	0	1	1	0	1	0	0	0	0	0
+6	Sched time: 52.0	Start time: 0.0	    Assign: 0	1	0	0	0	0	1	0	0	0	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	1	1	0	0	1	0	0	0	0	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	1	1	1	0	1	0	0	1	1	1
+1	Sched time: 34.0	Start time: 26.0	Assign: 0	0	0	0	0	1	0	0	0	0	1
+9	Sched time: 65.0	Start time: 50.0	Assign: 1	0	1	0	0	0	0	0	1	0	1
+4	Sched time: 70.0	Start time: 70.0	Assign: 0	1	0	1	0	0	0	0	0	0	1
+7	Sched time: 92.0	Start time: 82.0	Assign: 1	0	1	0	0	0	0	0	1	0	1
+5	Sched time: 98.0	Start time: 82.0	Assign: 0	0	0	0	0	0	1	0	0	0	0
+8	Sched time: 110.0	Start time: 97.0	Assign: 0	1	0	0	1	0	1	1	0	0	1
+11	Sched time: 125.0	Start time: 112.0	Assign: 1	1	1	1	0	1	1	0	0	0	1
+----- Duration: 0.21472052824369695 ----- Experience: 0.01119047619047619 ----- Assign: 0.0
+
+
+Vertice 14
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 0	0	0	1	0	0	1	1	0	0	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 1	0	0	1	0	1	0	0	0	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 0	1	0	0	0	0	0	0	1	0	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	1	1	1	0	1	0	1	0	0	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	0	0	0	0	0	0	0	0	0	1
+1	Sched time: 27.0	Start time: 26.0	Assign: 0	0	0	0	0	0	1	0	0	0	0
+9	Sched time: 56.0	Start time: 50.0	Assign: 1	0	0	0	0	1	0	0	1	0	0
+4	Sched time: 86.0	Start time: 70.0	Assign: 1	0	0	0	0	0	0	1	0	0	0
+7	Sched time: 85.0	Start time: 82.0	Assign: 1	0	1	0	1	1	0	0	1	0	1
+5	Sched time: 86.0	Start time: 82.0	Assign: 0	0	0	1	0	1	0	0	0	0	0
+8	Sched time: 98.0	Start time: 97.0	Assign: 1	1	0	0	0	0	1	1	1	1	0
+11	Sched time: 113.0	Start time: 112.0	Assign: 1	0	0	0	0	0	1	1	0	1	1
+----- Duration: 0.27184384474201345 ----- Experience: 0.012666666666666666 ----- Assign: 0.0
+
+
+Vertice 15
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 0	0	1	0	0	1	1	0	1	1	0
+3	Sched time: 50.0	Start time: 0.0	    Assign: 1	0	1	0	0	0	1	0	0	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	1	1	1	0	0	1	1	0	0	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	1	0	0	0	1	1	0	0	1	0
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	1	1	0	0	1	0	1	0	0	1
+1	Sched time: 27.0	Start time: 26.0	Assign: 0	0	0	1	0	0	1	0	0	0	1
+9	Sched time: 54.0	Start time: 50.0	Assign: 1	0	1	1	0	0	0	0	0	1	1
+4	Sched time: 86.0	Start time: 70.0	Assign: 1	0	0	0	0	0	0	1	1	0	0
+7	Sched time: 94.0	Start time: 82.0	Assign: 0	1	1	0	1	0	0	0	1	0	1
+5	Sched time: 101.0	Start time: 82.0	Assign: 0	0	0	0	0	1	1	0	0	0	0
+8	Sched time: 109.0	Start time: 97.0	Assign: 0	1	0	1	1	0	1	1	0	0	1
+11	Sched time: 127.0	Start time: 112.0	Assign: 1	0	1	0	1	1	1	0	1	0	1
+----- Duration: 0.1779679289910977 ----- Experience: 0.01119047619047619 ----- Assign: 0.0
+
+
+Vertice 16
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	1	0	0	1	0	1	1	0	0
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	1	0	0	0	1	0	0	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 0	0	0	1	0	0	1	0	0	1	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	1	1	1	0	0	1	0	0	0	0
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	0	1	0	0	0	1	1	0	0	0
+1	Sched time: 43.0	Start time: 26.0	Assign: 0	0	0	1	0	0	1	0	0	0	1
+9	Sched time: 55.0	Start time: 50.0	Assign: 0	0	0	1	0	0	0	0	0	0	0
+4	Sched time: 76.0	Start time: 70.0	Assign: 0	1	0	0	1	0	0	1	1	0	0
+7	Sched time: 99.0	Start time: 82.0	Assign: 0	1	0	1	1	1	1	0	1	0	1
+5	Sched time: 83.0	Start time: 82.0	Assign: 0	0	0	0	0	0	0	0	0	0	1
+8	Sched time: 110.0	Start time: 97.0	Assign: 1	0	1	1	0	1	0	1	0	1	0
+11	Sched time: 118.0	Start time: 112.0	Assign: 1	1	1	0	0	1	1	1	0	0	1
+----- Duration: 0.18711384162965738 ----- Experience: 0.01119047619047619 ----- Assign: 0.0
+
+
+Vertice 17
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	1	0	0	1	1	0	1	1	0
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	1	1	0	1	1	0	1	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	0	0	0	0	0	0	0	1	0	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	1	1	1	0	0	1	1	0	1	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	1	0	0	1	0	0	0	0	1	1
+1	Sched time: 38.0	Start time: 26.0	Assign: 0	0	0	0	0	1	0	0	0	0	1
+9	Sched time: 66.0	Start time: 50.0	Assign: 1	0	1	1	0	0	1	0	1	0	0
+4	Sched time: 87.0	Start time: 70.0	Assign: 0	1	0	1	1	0	0	1	1	0	1
+7	Sched time: 103.0	Start time: 82.0	Assign: 0	1	0	0	0	0	0	0	1	0	1
+5	Sched time: 93.0	Start time: 82.0	Assign: 0	0	0	1	0	1	1	0	0	0	0
+8	Sched time: 109.0	Start time: 97.0	Assign: 0	0	1	0	0	0	1	1	1	1	0
+11	Sched time: 131.0	Start time: 112.0	Assign: 1	1	0	0	0	0	0	1	1	1	1
+----- Duration: 0.12978821518638387 ----- Experience: 0.011805555555555555 ----- Assign: 0.0
+
+
+Vertice 18
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 0	0	0	0	0	1	0	1	1	0	0
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	0	1	0	0	1	0	0	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	0	0	0	0	0	0	0	0	0	0
+10	Sched time: 23.0	Start time: 0.0	    Assign: 0	0	0	0	0	0	0	1	0	0	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	1	1	0	1	1	0	0	0	1	1
+1	Sched time: 39.0	Start time: 26.0	Assign: 0	0	0	0	0	0	0	0	0	0	1
+9	Sched time: 51.0	Start time: 50.0	Assign: 1	0	1	1	0	1	0	0	0	1	1
+4	Sched time: 92.0	Start time: 70.0	Assign: 0	1	0	0	0	0	0	1	0	0	0
+7	Sched time: 97.0	Start time: 82.0	Assign: 1	0	0	1	1	0	0	0	1	0	0
+5	Sched time: 95.0	Start time: 82.0	Assign: 0	0	0	0	0	1	1	0	0	0	1
+8	Sched time: 107.0	Start time: 97.0	Assign: 0	0	1	0	1	1	0	0	1	0	1
+11	Sched time: 113.0	Start time: 112.0	Assign: 0	0	0	1	1	1	1	0	1	1	0
+----- Duration: 0.20418249660592105 ----- Experience: 0.011805555555555555 ----- Assign: 0.0
+
+
+Vertice 19
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 1	0	1	1	0	0	1	0	1	1	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	1	1	0	1	0	0	0	0	1
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	1	1	1	0	0	1	0	0	1	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	1	1	1	0	0	0	1	0	0	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 1	1	0	0	1	1	1	1	1	0	0
+1	Sched time: 47.0	Start time: 26.0	Assign: 0	0	0	0	0	0	1	0	0	0	1
+9	Sched time: 67.0	Start time: 50.0	Assign: 0	0	1	1	0	0	1	0	0	0	1
+4	Sched time: 88.0	Start time: 70.0	Assign: 0	1	0	0	1	0	0	1	1	0	0
+7	Sched time: 87.0	Start time: 82.0	Assign: 0	0	1	1	1	0	0	0	0	0	0
+5	Sched time: 83.0	Start time: 82.0	Assign: 0	0	0	1	0	1	1	0	0	0	1
+8	Sched time: 107.0	Start time: 97.0	Assign: 0	1	1	1	1	0	1	1	1	1	1
+11	Sched time: 116.0	Start time: 112.0	Assign: 0	0	1	1	0	1	1	0	1	1	0
+----- Duration: 0.18513857518070675 ----- Experience: 0.011805555555555555 ----- Assign: 0.0
+
+
+Vertice 20
+2	Sched time: 0.0	    Start time: 0.0	    Assign: 0	0	1	1	0	0	1	0	0	0	1
+3	Sched time: 50.0	Start time: 0.0	    Assign: 0	0	0	1	0	0	1	0	1	0	0
+6	Sched time: 52.0	Start time: 0.0	    Assign: 1	0	0	1	0	0	0	0	1	0	1
+10	Sched time: 23.0	Start time: 0.0	    Assign: 1	0	1	1	0	0	0	1	0	0	1
+12	Sched time: 32.0	Start time: 0.0	    Assign: 0	1	0	1	1	1	0	0	0	1	1
+1	Sched time: 38.0	Start time: 26.0	Assign: 0	0	0	1	0	0	0	0	0	0	0
+9	Sched time: 52.0	Start time: 50.0	Assign: 0	0	1	1	0	1	0	0	1	0	0
+4	Sched time: 77.0	Start time: 70.0	Assign: 1	0	0	0	1	0	0	1	1	0	0
+7	Sched time: 84.0	Start time: 82.0	Assign: 1	1	0	1	0	0	1	0	0	0	1
+5	Sched time: 85.0	Start time: 82.0	Assign: 0	0	0	0	0	1	1	0	0	0	1
+8	Sched time: 108.0	Start time: 97.0	Assign: 0	1	0	0	0	0	0	1	0	1	0
+11	Sched time: 125.0	Start time: 112.0	Assign: 1	0	1	1	1	0	1	0	1	0	1
+----- Duration: 0.19864975941557517 ----- Experience: 0.01119047619047619 ----- Assign: 0.0
