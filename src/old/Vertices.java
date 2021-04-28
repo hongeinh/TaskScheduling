@@ -1,5 +1,7 @@
 package old;
 
+import entity.Task;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,93 +46,93 @@ public class Vertices {
         taskList.add(t8);
         taskList.add(t11);
     }
-
-
-    public void setDuration() {
-        double duration = 0;
-        for (Task task : this.taskList) {
-            double idle = task.getScheduledTime() - task.getStart();
-            idle = idle < 0 ? 0 : (1/(1 + idle));
-//            idle = idle < 0 ? 0 : (1 + idle);
-            duration += idle;
-        }
-        this.duration = duration / Common.numberOfTasks;
-    }
-
-
-    public void setExperience() {
-        double treq = 0;
-        for (Task task : this.taskList) {
-//            treq += getSkillsMaxExp(task.getId() - 1) + getLexp(task.getId()-1)/task.getNumbOfAssigned();
-            for (int i = 0; i < Common.numberOfSkills; i++) {
-                if (Common.treq[task.getId() - 1][i] == 1) {
-                    treq = getMaxExpOfSkill(i) + getSumExpOfSkill(i) / task.getNumbOfAssigned();
-                }
-            }
-        }
-        treq /= Common.numberOfSkills;
-        this.experience = treq / Common.numberOfTasks;
-    }
-
-
-    public double getMaxExpOfSkill(int j) {
-        double max = 0;
-        for (int i = 0; i < Common.numberOfResource; i++) {
-            max = max > Common.lexp[i][j] ? max : Common.lexp[i][j];
-        }
-        return max;
-    }
-//    public double getSkillsMaxExp(int i){
-//        double max = 0;
-//        for (int j = 0; j < Common.numberOfSkills; j++) {
-//            if( Common.treq[i][j] == 1) {
-//                for (int k = 0; k < Common.numberOfResource; k++) {
-//                    max = max > Common.lexp[k][i] ? max : Common.lexp[k][i];
+//
+//
+//    public void setDuration() {
+//        double duration = 0;
+//        for (Task task : this.taskList) {
+//            double idle = task.getScheduledTime() - task.getStart();
+//            idle = idle < 0 ? 0 : (1/(1 + idle));
+////            idle = idle < 0 ? 0 : (1 + idle);
+//            duration += idle;
+//        }
+//        this.duration = duration / Common.numberOfTasks;
+//    }
+//
+//
+//    public void setExperience() {
+//        double treq = 0;
+//        for (Task task : this.taskList) {
+////            treq += getSkillsMaxExp(task.getId() - 1) + getLexp(task.getId()-1)/task.getNumbOfAssigned();
+//            for (int i = 0; i < Common.numberOfSkills; i++) {
+//                if (Common.treq[task.getId() - 1][i] == 1) {
+//                    treq = getMaxExpOfSkill(i) + getSumExpOfSkill(i) / task.getNumbOfAssigned();
 //                }
 //            }
 //        }
+//        treq /= Common.numberOfSkills;
+//        this.experience = treq / Common.numberOfTasks;
+//    }
+//
+//
+//    public double getMaxExpOfSkill(int j) {
+//        double max = 0;
+//        for (int i = 0; i < Common.numberOfResource; i++) {
+//            max = max > Common.lexp[i][j] ? max : Common.lexp[i][j];
+//        }
 //        return max;
 //    }
-
-    public double getSumExpOfSkill(int j) {
-        double avg = 0;
-        for (int i = 0; i < Common.numberOfResource; i++) {
-            avg += Common.lexp[i][j];
-        }
-        return avg;
-    }
-
-    // pending
-    public void setAssign() {
-        this.assignment = 0;
-    }
-
-    public double getDuration() {
-        return duration;
-    }
-
-    public double getAssignment() {
-        return assignment;
-    }
-
-    public double getExperience() {
-        return experience;
-    }
-
-    public int getRank() {
-        return rank;
-    }
-
-    public void setRank(int rank) {
-        this.rank = rank;
-    }
-
-    public double getDistance() {
-        return distance;
-    }
-
-    public void setDistance(double distance) {
-        this.distance = distance;
-    }
+////    public double getSkillsMaxExp(int i){
+////        double max = 0;
+////        for (int j = 0; j < Common.numberOfSkills; j++) {
+////            if( Common.treq[i][j] == 1) {
+////                for (int k = 0; k < Common.numberOfResource; k++) {
+////                    max = max > Common.lexp[k][i] ? max : Common.lexp[k][i];
+////                }
+////            }
+////        }
+////        return max;
+////    }
+//
+//    public double getSumExpOfSkill(int j) {
+//        double avg = 0;
+//        for (int i = 0; i < Common.numberOfResource; i++) {
+//            avg += Common.lexp[i][j];
+//        }
+//        return avg;
+//    }
+//
+//    // pending
+//    public void setAssign() {
+//        this.assignment = 0;
+//    }
+//
+//    public double getDuration() {
+//        return duration;
+//    }
+//
+//    public double getAssignment() {
+//        return assignment;
+//    }
+//
+//    public double getExperience() {
+//        return experience;
+//    }
+//
+//    public int getRank() {
+//        return rank;
+//    }
+//
+//    public void setRank(int rank) {
+//        this.rank = rank;
+//    }
+//
+//    public double getDistance() {
+//        return distance;
+//    }
+//
+//    public void setDistance(double distance) {
+//        this.distance = distance;
+//    }
 }
 
